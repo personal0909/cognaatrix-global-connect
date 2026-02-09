@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Mail } from "lucide-react";
+import { MapPin, Linkedin } from "lucide-react";
 
 const FooterSection = () => {
   return (
@@ -19,10 +19,15 @@ const FooterSection = () => {
             <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">
               Delivering intelligent IT solutions that bridge talent, technology, and automation for forward-thinking organisations.
             </p>
-            <div className="mt-6 flex items-center gap-2 text-muted-foreground text-sm">
-              <Mail className="w-4 h-4 text-primary" />
-              <span>info@cognaatrix.com</span>
-            </div>
+            <a 
+              href="https://www.linkedin.com/company/10399724" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors"
+            >
+              <Linkedin className="w-5 h-5" />
+              <span>Follow us on LinkedIn</span>
+            </a>
           </motion.div>
 
           {/* Offices */}
