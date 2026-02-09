@@ -18,7 +18,7 @@ const HeroSection = () => {
             Intelligent IT Solutions
           </p>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] mb-8">
-            <span className="text-gradient">Cognaatrix</span>
+            <span className="text-gradient">Cognatrix</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-10">
             Empowering organisations with workforce staffing, virtual assistants, and AI-driven automation platforms that redefine operational efficiency.

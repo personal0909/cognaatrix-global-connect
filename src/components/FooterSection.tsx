@@ -14,7 +14,7 @@ const FooterSection = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl font-display font-bold text-gradient mb-4">
-              Cognaatrix
+              Cognatrix
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">
               Delivering intelligent IT solutions that bridge talent, technology, and automation for forward-thinking organisations.
@@ -57,7 +57,7 @@ const FooterSection = () => {
         {/* Bottom bar */}
         <div className="mt-16 pt-6 border-t border-border text-center">
           <p className="text-muted-foreground text-xs">
-            © {new Date().getFullYear()} Cognaatrix. All rights reserved.
+            © {new Date().getFullYear()} Cognatrix. All rights reserved.
           </p>
         </div>
       </div>
